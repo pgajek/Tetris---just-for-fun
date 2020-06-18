@@ -16,3 +16,21 @@
 .puzzle {
   background-color: lightblue;
 }
+.taken {
+}
+.miniGrid {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  margin-left: 50px;
+}
+
+.miniGrid__item {
+  height: 20px;
+  width: 20px;
+}
+.container {
+  display: flex;
+}
